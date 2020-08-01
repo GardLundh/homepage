@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/homepage/static/css/main.c8cfd277.chunk.css",
-    "main.js": "/homepage/static/js/main.fc5e415d.chunk.js",
-    "main.js.map": "/homepage/static/js/main.fc5e415d.chunk.js.map",
-    "runtime-main.js": "/homepage/static/js/runtime-main.a8951460.js",
-    "runtime-main.js.map": "/homepage/static/js/runtime-main.a8951460.js.map",
-    "static/js/2.de4630bf.chunk.js": "/homepage/static/js/2.de4630bf.chunk.js",
-    "static/js/2.de4630bf.chunk.js.map": "/homepage/static/js/2.de4630bf.chunk.js.map",
-    "index.html": "/homepage/index.html",
-    "precache-manifest.5808ca8160b78d6ea3b519266f345f8e.js": "/homepage/precache-manifest.5808ca8160b78d6ea3b519266f345f8e.js",
-    "service-worker.js": "/homepage/service-worker.js",
-    "static/css/main.c8cfd277.chunk.css.map": "/homepage/static/css/main.c8cfd277.chunk.css.map",
-    "static/js/2.de4630bf.chunk.js.LICENSE.txt": "/homepage/static/js/2.de4630bf.chunk.js.LICENSE.txt",
-    "static/media/covidTracker.jpg": "/homepage/static/media/covidTracker.a30ed51f.jpg",
-    "static/media/profilepicture.jpg": "/homepage/static/media/profilepicture.648ede64.jpg",
-    "static/media/shakespeareGenerator.jpg": "/homepage/static/media/shakespeareGenerator.45dd5702.jpg"
+    "main.css": "/gardlundh/static/css/main.c8cfd277.chunk.css",
+    "main.js": "/gardlundh/static/js/main.22b007bc.chunk.js",
+    "main.js.map": "/gardlundh/static/js/main.22b007bc.chunk.js.map",
+    "runtime-main.js": "/gardlundh/static/js/runtime-main.39d17711.js",
+    "runtime-main.js.map": "/gardlundh/static/js/runtime-main.39d17711.js.map",
+    "static/js/2.de4630bf.chunk.js": "/gardlundh/static/js/2.de4630bf.chunk.js",
+    "static/js/2.de4630bf.chunk.js.map": "/gardlundh/static/js/2.de4630bf.chunk.js.map",
+    "index.html": "/gardlundh/index.html",
+    "precache-manifest.59d09fb33e17b29c4824f3dba265e536.js": "/gardlundh/precache-manifest.59d09fb33e17b29c4824f3dba265e536.js",
+    "service-worker.js": "/gardlundh/service-worker.js",
+    "static/css/main.c8cfd277.chunk.css.map": "/gardlundh/static/css/main.c8cfd277.chunk.css.map",
+    "static/js/2.de4630bf.chunk.js.LICENSE.txt": "/gardlundh/static/js/2.de4630bf.chunk.js.LICENSE.txt",
+    "static/media/covidTracker.jpg": "/gardlundh/static/media/covidTracker.a30ed51f.jpg",
+    "static/media/profilepicture.jpg": "/gardlundh/static/media/profilepicture.648ede64.jpg",
+    "static/media/shakespeareGenerator.jpg": "/gardlundh/static/media/shakespeareGenerator.45dd5702.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a8951460.js",
+    "static/js/runtime-main.39d17711.js",
     "static/js/2.de4630bf.chunk.js",
     "static/css/main.c8cfd277.chunk.css",
-    "static/js/main.fc5e415d.chunk.js"
+    "static/js/main.22b007bc.chunk.js"
   ]
 }
