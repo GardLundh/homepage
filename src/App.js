@@ -9,9 +9,9 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <Route exact path="/gardlundh" component={Home} />
-        <Route exact path="/gardlundh/skills" component={Skills} />
-        <Route exact path="/gardlundh/projects" component={Projects} />
+        <Route exact path="/homepage" component={Home} />
+        <Route exact path="/homepage/skills" component={Skills} />
+        <Route exact path="/homepage/projects" component={Projects} />
       </div>
       <ParticleComp />
     </Router>

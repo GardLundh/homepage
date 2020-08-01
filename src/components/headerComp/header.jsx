@@ -23,7 +23,7 @@ export default class Header extends Component {
               className={`home ${this.state.active === "home" ? "active" : ""}`}
               onClick={this.changeActive}
             >
-              <Link to="/gardlundh" id="home">
+              <Link to="/homepage" id="home">
                 Home
               </Link>
             </li>
@@ -34,7 +34,7 @@ export default class Header extends Component {
               id="skills"
               onClick={this.changeActive}
             >
-              <Link to="/gardlundh/skills" id="skills">
+              <Link to="/homepage/skills" id="skills">
                 {" "}
                 Skills
               </Link>
@@ -46,7 +46,7 @@ export default class Header extends Component {
               id="projects"
               onClick={this.changeActive}
             >
-              <Link to="/gardlundh/projects" id="projects">
+              <Link to="/homepage/projects" id="projects">
                 {" "}
                 Projects
               </Link>
