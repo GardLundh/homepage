@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/homepage/static/css/main.c8cfd277.chunk.css",
+    "main.js": "/homepage/static/js/main.fc5e415d.chunk.js",
+    "main.js.map": "/homepage/static/js/main.fc5e415d.chunk.js.map",
+    "runtime-main.js": "/homepage/static/js/runtime-main.a8951460.js",
+    "runtime-main.js.map": "/homepage/static/js/runtime-main.a8951460.js.map",
+    "static/js/2.de4630bf.chunk.js": "/homepage/static/js/2.de4630bf.chunk.js",
+    "static/js/2.de4630bf.chunk.js.map": "/homepage/static/js/2.de4630bf.chunk.js.map",
+    "index.html": "/homepage/index.html",
+    "precache-manifest.5808ca8160b78d6ea3b519266f345f8e.js": "/homepage/precache-manifest.5808ca8160b78d6ea3b519266f345f8e.js",
+    "service-worker.js": "/homepage/service-worker.js",
+    "static/css/main.c8cfd277.chunk.css.map": "/homepage/static/css/main.c8cfd277.chunk.css.map",
+    "static/js/2.de4630bf.chunk.js.LICENSE.txt": "/homepage/static/js/2.de4630bf.chunk.js.LICENSE.txt",
+    "static/media/covidTracker.jpg": "/homepage/static/media/covidTracker.a30ed51f.jpg",
+    "static/media/profilepicture.jpg": "/homepage/static/media/profilepicture.648ede64.jpg",
+    "static/media/shakespeareGenerator.jpg": "/homepage/static/media/shakespeareGenerator.45dd5702.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a8951460.js",
+    "static/js/2.de4630bf.chunk.js",
+    "static/css/main.c8cfd277.chunk.css",
+    "static/js/main.fc5e415d.chunk.js"
+  ]
+}
