@@ -1,0 +1,80 @@
+@import "~bootstrap/scss/bootstrap";
+
+$black: #010000;
+$white: #ffffff;
+$lightGrey: #e6e6e6;
+$lightBlue: #a6c8ff;
+$darkGrey: #333;
+$red: #ff1755;
+$yellow: #eee089;
+
+@mixin translateY($e) {
+  -webkit-transform: translateY($e);
+  -moz-transform: translateY($e);
+  transform: translateY($e);
+}
+
+@mixin transition($e) {
+  -webkit-transition: $e;
+  -moz-transition: $e;
+  transition: $e;
+}
+
+/*
+FONTS
+font-family: 'Montserrat', sans-serif;
+font-family: "Open Sans", sans-serif;
+Light 300 italic
+Regular 400
+Semi-bold 600
+Extra-bold 800
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 18px;
+  color: $black;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 12px;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+  @include transition(0.4s ease-in-out);
+  cursor: pointer;
+
+  &:hover {
+    color: $lightBlue;
+    @include transition(0.4s ease-in-out);
+  }
+}
