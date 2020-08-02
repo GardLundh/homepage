@@ -1,14 +1,14 @@
 import React, { Component } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faPython,
-  faGit,
-  faReact,
-  faNodeJs,
-  faUnity,
-  faHtml5,
-  faCss3,
-} from "@fortawesome/free-brands-svg-icons";
+  FaReact,
+  FaPython,
+  FaGit,
+  FaNodeJs,
+  FaUnity,
+  FaHtml5,
+  FaCss3,
+} from "react-icons/fa";
+import { DiPostgresql, DiMongodb } from "react-icons/di";
 
 export default class Skills extends Component {
   render() {
@@ -17,31 +17,39 @@ export default class Skills extends Component {
         <h1>Skills</h1>
         <div className="skills">
           <div className="python skill">
-            <FontAwesomeIcon icon={faPython} size="10x" />
+            <FaPython size="10em" />
             <h2>Python</h2>
           </div>
           <div className="react skill">
-            <FontAwesomeIcon icon={faReact} size="10x" />
+            <FaReact size="10em" />
             <h2>React JS</h2>
           </div>
           <div className="node skill">
-            <FontAwesomeIcon icon={faNodeJs} size="10x" />
+            <FaNodeJs size="10em" />
             <h2>Node.js</h2>
           </div>
           <div className="git skill">
-            <FontAwesomeIcon icon={faGit} size="10x" />
+            <FaGit size="10em" />
             <h2>Git</h2>
           </div>
+          <div className="mongodb skill">
+            <DiMongodb size="10em" />
+            <h2>MongoDB</h2>
+          </div>
+          <div className="postgres skill">
+            <DiPostgresql size="10em" />
+            <h2>PostgreSQL</h2>
+          </div>
           <div className="html skill">
-            <FontAwesomeIcon icon={faHtml5} size="10x" />
+            <FaHtml5 size="10em" />
             <h2>HTML</h2>
           </div>
           <div className="git skill">
-            <FontAwesomeIcon icon={faCss3} size="10x" />
+            <FaCss3 size="10em" />
             <h2>CSS</h2>
           </div>
           <div className="unity skill">
-            <FontAwesomeIcon icon={faUnity} size="10x" />
+            <FaUnity size="10em" />
             <h2>Unity</h2>
           </div>
         </div>
