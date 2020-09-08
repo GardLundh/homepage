@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Image from "react-bootstrap/Image";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-import ProfilePicture from "../../assets/profilepicture.jpg";
+import ProfilePicture from "../../assets/profil.jpg";
 
 export default class Home extends Component {
   render() {
